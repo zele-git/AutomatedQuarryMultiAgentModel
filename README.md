@@ -4,5 +4,5 @@ This is a multi-agent model for simulating cyclic transport of materials between
 Objectives 
 - Simulate loader (and unloader), and truk activities in a quarry
 - Generate configuration desing (trucks selection of loading, unloading station and roads)
-- Analyzing decision making behavior of quarry agents, impacts of road properties such as slope dynamic properties such as traffic on roads, collaborative mission accomplishment and performances
+- Analyzing decision making behavior of quarry agents, impacts of road properties such as slope and dynamic properties such as traffic on roads, collaborative mission accomplishment and performances
 - Design space exploration on configuration designs for maximizing mission accomplishment
