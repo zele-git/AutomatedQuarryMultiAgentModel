@@ -8,3 +8,4 @@ This is a multi-agent model for simulating cyclic transport of materials between
 - Design space exploration on configuration designs for maximizing mission accomplishment
 
 **Quarry Layout**
+![layout](https://github.com/user-attachments/assets/d9ffe0f4-46d1-4697-84de-4f51b999137c)
