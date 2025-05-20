@@ -32,7 +32,12 @@ The implemenation contains
 - Scenario specification
 - Simulation environment variables
 
-**Agent Specification**
+**Agents and Simulation Environment Specification**
+- Truck Agent - Represents a hauling vehicle. It chooses routes based on road characteristics, travels between stations (simulated with delays), sends load/unload requests, waits for confirmations, and reports transported tons toward the mission goal.
+- Loading Station Agent - Manages a FIFO queue of trucks waiting to be loaded. On each tick it checks the queue, simulates a loading delay for the head truck, removes it when loading is complete, and notifies the truck it may depart.
+- Unloading Station Agent - Queues arriving trucks, applies an unloading delay per truck, removes them once done, notifies each truck, and updates the shared mission status.
+- Simulation Environment - An object that holds global data—time, station lists, road layouts, and which trucks occupy which roads. It provides thread-safe methods for agents to query or update shared state (e.g., clock ticks, road‐traffic counts).
+- Scenario - A declarative data model loaded from JSON specifying all initial parameters: station counts and capacities, truck configurations, road definitions (distance, slope, delay factors), and the mission’s daily material-transport target. It drives a simulation run by feeding these values into the environment and agents.
 
 
 **Prieliminary result**
