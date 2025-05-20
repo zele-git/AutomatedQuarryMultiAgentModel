@@ -41,7 +41,7 @@ The implemenation contains
 
 **Cyclic Transport Model in Quarry**
 
-![image](https://github.com/user-attachments/assets/7a1bb878-355b-4d16-ad2e-ed18a1cd6bb7)
+<img width="612" alt="image" src="https://github.com/user-attachments/assets/d3cfa30e-0c5e-4bf8-8375-494508187778" />
 
 
 **Prieliminary result**
