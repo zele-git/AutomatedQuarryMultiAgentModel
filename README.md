@@ -39,5 +39,11 @@ The implemenation contains
 - Simulation Environment - An object that holds global data—time, station lists, road layouts, and which trucks occupy which roads. It provides thread-safe methods for agents to query or update shared state (e.g., clock ticks, road‐traffic counts).
 - Scenario - A declarative data model loaded from JSON specifying all initial parameters: station counts and capacities, truck configurations, road definitions (distance, slope, delay factors), and the mission’s daily material-transport target. It drives a simulation run by feeding these values into the environment and agents.
 
+**Cyclic Transport Model in Quarry**
+
+![image](https://github.com/user-attachments/assets/7a1bb878-355b-4d16-ad2e-ed18a1cd6bb7)
+
 
 **Prieliminary result**
+
+
