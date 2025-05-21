@@ -1,0 +1,32 @@
+{
+  "agents": {
+    "num_trucks": 5
+  },
+  "roadparam": {
+    "slope": 5.0,
+    "distance": 120,
+    "base_speed": 30,
+    "max_truck_on_road": 20
+  },
+  "truck_agent": {
+    "max_speed": 55,
+    "base_speed": 30,
+    "carrying_capacity": 13
+  },
+  "loading_station": {
+    "bucket_size": 5,
+    "max_waiting_queue": 3
+  },
+  "unloading_station": {
+    "bucket_size": 4,
+    "max_waiting_queue": 2
+  },
+  "mission": {
+    "transport_goal_in_tons": 100
+  },
+  "miscparam": {
+    "clock_tick": 1000,
+    "density_penality_weight": 10,
+    "slope_penality_factor": 0.5
+  }
+}
