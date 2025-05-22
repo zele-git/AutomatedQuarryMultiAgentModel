@@ -15,7 +15,7 @@ A road is characterized by two key physical attributes. Distance (length) – th
 
 **Implementation Structure**
 
-JADE is used JADE to model and simulate the behavior of quarry agents within a distributed multi-agent system. Each agent is designed as an independent software entity with decision-making capabilities, aligned with the goals of the quarry system. JADE provided the communication infrastructure and lifecycle management necessary for agents to interact using FIPA-compliant messaging protocols.
+JADE is used to model and simulate the behavior of quarry agents within a distributed multi-agent system. Each agent is designed as an independent software entity with decision-making capabilities, aligned with the goals of the quarry system. JADE provided the communication infrastructure and lifecycle management necessary for agents to interact using FIPA-compliant messaging protocols.
 
 Specifically, JADE was instrumental in:
 
